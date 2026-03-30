@@ -1,0 +1,7 @@
+{
+  "name": "Opelika Town Automotive",
+  "description": "Premier automotive institution in Opelika, providing precision diagnostics and master-level mechanics with a high-end editorial aesthetic.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -192,7 +192,7 @@ export default function App() {
           >
             <div className="aspect-square rounded-xl overflow-hidden shadow-2xl transform rotate-1 sm:rotate-3 scale-100 sm:scale-105 border-4 border-white/10">
               <img 
-                src="../motor.png" 
+                src="https://github.com/almendron02/Opelika-Town-Automotive/blob/e286d07872626deae7b6f5a3cb834665e44fddb4/motor.png" 
                 alt="High-end engine"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

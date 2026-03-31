@@ -182,6 +182,17 @@ export default function App() {
                 Call
               </a>
             </div>
+            <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-2 sm:pt-4">
+              <a 
+                href="https://maps.google.com/?q=3403+Pepperell+Pkwy+Opelika+AL+36801"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-tertiary-container text-on-tertiary px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-bold hover:bg-on-tertiary-container transition-colors shadow-2xl w-full sm:w-auto flex items-center justify-center gap-2"
+              >
+              <MapPin className="w-5 h-5" />
+              Get Directions
+              </a>
+            </div>
           </motion.div>
 
           <motion.div 

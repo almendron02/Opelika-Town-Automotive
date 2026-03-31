@@ -379,7 +379,7 @@ export default function App() {
           <div className="flex-1 w-full">
             <div className="aspect-video bg-surface-container rounded-xl overflow-hidden shadow-2xl relative grayscale hover:grayscale-0 transition-all duration-700">
               <img 
-                src="../park.png" 
+                src="https://github.com/almendron02/Opelika-Town-Automotive/blob/4f2620f330da761fbfa0f08e173dbae0d213d187/park.png" 
                 alt="Store Exterior"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

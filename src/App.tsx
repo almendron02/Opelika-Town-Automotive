@@ -182,17 +182,6 @@ export default function App() {
                 Call
               </a>
             </div>
-            <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-2 sm:pt-4">
-              <a 
-                href="https://maps.google.com/?q=3403+Pepperell+Pkwy+Opelika+AL+36801"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-tertiary-container text-on-tertiary px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-bold hover:bg-on-tertiary-container transition-colors shadow-2xl w-full sm:w-auto flex items-center justify-center gap-2"
-              >
-              <MapPin className="w-5 h-5" />
-              Get Directions
-              </a>
-            </div>
           </motion.div>
 
           <motion.div 
@@ -203,7 +192,7 @@ export default function App() {
           >
             <div className="aspect-square rounded-xl overflow-hidden shadow-2xl transform rotate-1 sm:rotate-3 scale-100 sm:scale-105 border-4 border-white/10">
               <img 
-                src="https://raw.githubusercontent.com/almendron02/Opelika-Town-Automotive/main/motor.png" 
+                src="https://picsum.photos/seed/engine/800/800" 
                 alt="High-end engine"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -390,8 +379,8 @@ export default function App() {
           <div className="flex-1 w-full">
             <div className="aspect-video bg-surface-container rounded-xl overflow-hidden shadow-2xl relative grayscale hover:grayscale-0 transition-all duration-700">
               <img 
-                src="https://raw.githubusercontent.com/almendron02/Opelika-Town-Automotive/main/park.png" 
-                alt="Store Exterior"
+                src="https://picsum.photos/seed/workshop/1200/800" 
+                alt="Workshop exterior"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />

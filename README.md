@@ -4,7 +4,7 @@
 
 ### A conversion-focused website for a local automotive repair business
 
-[Live Website](https://otautomotive.netlify.app) · [Developer Portfolio](https://formawebsite.com) · [GitHub Profile](https://github.com/almendron02)
+[Live Website](https://opelikatown.formawebsite.com) · [Developer Portfolio](https://formawebsite.com) · [GitHub Profile](https://github.com/almendron02)
 
 ![React](https://img.shields.io/badge/React-19-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)

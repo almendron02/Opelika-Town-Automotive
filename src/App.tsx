@@ -65,7 +65,7 @@ export default function App() {
         <a className="rating-line" href={REVIEWS} target="_blank" rel="noreferrer"><Stars label="4.7 out of 5 stars" /><strong>4.7</strong><span>from 82 Google reviews</span><ArrowRight /></a>
       </motion.div>
       <motion.div className="hero-visual" initial={reduce ? false : { opacity: 0, scale: .96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .9, delay: .12 }}>
-        <img src="/images/opelika-shop.webp" alt="Opelika Town Automotive shop exterior" width="900" height="674" fetchPriority="high" />
+        <img src="/images/opelika-shop-hq.webp" alt="Opelika Town Automotive shop exterior" width="1450" height="1085" fetchPriority="high" />
         <div className="hero-stamp"><span>Open</span><strong>Mon–Fri</strong><small>8:00–5:30</small></div><div className="hero-caption"><span>3403 Pepperell Pkwy</span><span>Opelika, AL 36801</span></div>
       </motion.div>
     </section>
@@ -77,7 +77,7 @@ export default function App() {
       <span className="service-number">{String(i + 1).padStart(2, "0")}</span><span className="service-icon">{s.icon}</span><div><h3>{s.name}</h3><p>{s.detail}</p></div><a href={PHONE} aria-label={`Call about ${s.name}`}><ArrowUpRight /></a>
     </motion.article>)}</div></section>
 
-    <section className="shop-story section-pad"><motion.div className="story-image" {...reveal}><img src="/images/engine-service.webp" alt="Engine being serviced in an automotive shop" width="900" height="900" loading="lazy" decoding="async" /><span className="image-index">01 / 02</span></motion.div>
+    <section className="shop-story section-pad"><motion.div className="story-image" {...reveal}><img src="/images/engine-service-hq.webp" alt="Engine being serviced in an automotive shop" width="1254" height="1254" loading="lazy" decoding="async" /><span className="image-index">01 / 02</span></motion.div>
       <motion.div className="story-copy" {...reveal}><p className="eyebrow light"><span /> The shop approach</p><h2>Listen first.<br />Then fix it.</h2><p>Car trouble already costs time and attention. Opelika Town Automotive keeps the conversation direct: bring in the vehicle, let the team look it over, and hear the estimate before the work moves forward.</p>
         <div className="story-points"><span><strong>01</strong>Explain what you’re experiencing</span><span><strong>02</strong>Get the vehicle evaluated</span><span><strong>03</strong>Review the repair and estimate</span></div>
       </motion.div></section>
@@ -89,5 +89,5 @@ export default function App() {
     <section id="visit" className="visit section-pad"><div className="visit-heading"><p className="eyebrow light"><span /> Bring it by</p><h2>Let’s get you<br />back on the road.</h2></div><div className="visit-details">
       <div><Clock3 /><span><small>Hours</small><strong>Monday–Friday</strong><p>8:00 AM–5:30 PM</p></span></div><div><MapPin /><span><small>Shop</small><strong>3403 Pepperell Pkwy</strong><p>Opelika, AL 36801</p></span></div><div><Phone /><span><small>Phone</small><strong>(334) 737-6636</strong><p>Call to discuss your vehicle</p></span></div>
     </div><div className="visit-actions"><a className="button button-red" href={PHONE}><Phone /> Call the shop</a><a className="button button-dark-outline" href={DIRECTIONS} target="_blank" rel="noreferrer">Get directions <ArrowUpRight /></a></div></section>
-  </main><footer className="footer"><div className="footer-brand"><span className="brand-mark">OTA</span><strong>Opelika Town<br />Automotive</strong></div><div><small>Call</small><a href={PHONE}>(334) 737-6636</a></div><div><small>Visit</small><a href={DIRECTIONS} target="_blank" rel="noreferrer">3403 Pepperell Pkwy<br />Opelika, AL 36801</a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Opelika Town Automotive</span><span>Website by <a href="https://formawebsite.com" target="_blank" rel="noreferrer">Forma</a></span></div></footer></div>;
+  </main><footer className="footer"><div className="footer-brand"><span className="brand-mark">OTA</span><strong>Opelika Town<br />Automotive</strong></div><div><small>Call</small><a href={PHONE}>(334) 737-6636</a></div><div><small>Visit</small><a href={DIRECTIONS} target="_blank" rel="noreferrer">3403 Pepperell Pkwy<br />Opelika, AL 36801</a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Opelika Town Automotive</span><span className="footer-credit">Website by <a href="https://formawebsite.com" target="_blank" rel="noreferrer">Forma</a><span aria-hidden="true"> · </span><a href="https://formawebsite.com" target="_blank" rel="noreferrer">Get a website</a></span></div></footer></div>;
 }
